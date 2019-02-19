@@ -1,0 +1,512 @@
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- Icon -->
+<link rel="shortcut icon" href="http://www.doutorconcursos.com.br/faviconnovo.ico" type="image/x-icon">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+crossorigin="anonymous">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Merienda|Merriweather:300,400,700,900|Montserrat:300,400,700,900" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css">
+<title>Doutor Concursos - Home - Doutor Concursos</title>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="img/logo5v2-4-borda.png" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="menu-icon fas fa-bars"></i>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item dr-nav active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dr-nav dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cursos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navDropdown">
+                <a class="dropdown-item" href="#">Agente Administrativo</a>
+                <a class="dropdown-item" href="#">Fiscal de postura</a>
+                <a class="dropdown-item" href="#">Detran</a>
+                <a class="dropdown-item" href="#">Soldado</a>
+                <a class="dropdown-item" href="#">INSS</a>
+            </div>
+        </li>
+        <li class="nav-item dr-nav">
+            <a class="nav-link" href="#">Sobre nós</a>
+        </li>
+        <li class="nav-item dr-nav">
+            <a class="nav-link" href="#">Depoimentos</a>
+        </li>
+        <li class="nav-item dr-nav">
+            <a class="nav-link" href="#">Alunos</a>
+        </li>
+        </ul>
+        <button class="btn btn-outline-primary font-weight-bold d-none d-lg-block" href="#"data-toggle="modal" data-target="#formModal">Cadastre-se</button>
+
+        <button class="btn btn-primary btn-block font-weight-bold d-block d-lg-none" href="#"data-toggle="modal" data-target="#formModal">Cadastre-se</button>
+    </div>
+</nav>    
+<header>
+
+<!-- CAROUSEL -->
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+        <!-- DIV 01 -->
+        <div class="carousel-item overflow-hidden custom-height active" style="background-image: linear-gradient(rgba(52, 152, 219,0.9),rgba(52, 152, 219,0.9)), url('img/doutor_concurso.jpg');background-size: cover; background-position: center;">
+            <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                <h1 class="text-center text-white font-weight-bold">Doutor Concursos<br>
+                    <span class="lead text-light">O mais inovador cursinho presencial de São José do Rio
+                        Preto!</span>
+                </h1>
+                <div class="d-flex mt-4">
+                    <button type="button" class="btn btn-light btn-lg mr-4">Cursos</button>
+                    <button type="button" class="btn btn-danger btn-lg mr-4">Extensivos</button>
+                    <button type="button" class="btn btn-info btn-lg ">Contato</button>
+                </div>
+            </div>
+        </div>
+        <!-- DIV 02 -->
+        <div class="carousel-item overflow-hidden custom-height" style="background-image: linear-gradient(rgba(5, 5, 5,0.8),rgba(5, 5, 5,0.8)), url('img/agente_administrativo.jpg');background-size: cover; background-position: center;">
+            <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                <h2 class="text-center text-white font-weight-bold">
+                    Agente Administrativo
+                </h2>
+                <span class="lead text-light">Prefeitura de São José do Rio Preto!</span>
+                <div class="d-flex mt-4">
+                    <button type="button" class="btn btn-info btn-lg mr-4">Reserve sua vaga</button>
+                    <button type="button" class="btn btn-outline-light btn-lg mr-4">Leia mais</button>
+                </div>
+            </div>
+        </div>
+        <!-- DIV 03 -->
+        <div class="carousel-item overflow-hidden custom-height" style="background-image: linear-gradient(rgba(5, 5, 5,0.8),rgba(5, 5, 5,0.8)), url('img/postura.jpg');background-size: cover; background-position: center;">
+            <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                <h2 class="text-center text-white font-weight-bold">
+                    Fiscal de Postura
+                </h2>
+                <span class="lead text-light">Alguma coisa.</span>
+                <div class="d-flex mt-4">
+                    <button type="button" class="btn btn-info btn-lg mr-4">Reserve sua vaga</button>
+                    <button type="button" class="btn btn-outline-light btn-lg mr-4">Leia mais</button>
+                </div>
+            </div>
+        </div>
+        <!-- DIV 04 -->
+        <div class="carousel-item overflow-hidden custom-height" style="background-image: linear-gradient(rgba(5, 5, 5,0.8),rgba(5, 5, 5,0.8)), url('img/saude.jpg');background-size: cover; background-position: center;">
+            <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                <h2 class="text-center text-white font-weight-bold">
+                    Concurso Público <br> Área da Saúde
+                </h2>
+                <span class="lead text-light">Alguma coisa.</span>
+                <div class="d-flex mt-4">
+                    <button type="button" class="btn btn-info btn-lg mr-4">Reserve sua vaga</button>
+                    <button type="button" class="btn btn-outline-light btn-lg mr-4">Leia mais</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Control -->
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Proximo</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+</div>
+
+</header>
+<!-- Fim do HEADER -->
+<!-- SECTION DESTAQUE -->
+<section id="destaque">
+
+<!-- Container Fluid -->
+<div class="container-fluid">
+
+    <h2 class="heading-section">Destaque</h2>
+
+    <div class="row">
+        <!-- Card -->
+        <div class="col-xl-4 col-lg-6 mb-4">
+            <div class="card rounded shadow">
+                <div class="card-title custom-card-title" style="background-image: linear-gradient(rgba(52, 152, 219,0.9),rgba(52, 152, 219,0.9)), url('img/agente_administrativo.jpg');background-size: cover; background-position: center;">
+                  <h5 class="card-title text-light">Curso: Agente Administrativo</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Concurso para Agente Administrativo, vagas abertas e lara lara lara.
+                    </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Vagas: 15</li>
+                        <li class="list-group-item">Horas: 20horas</li>
+                        <li class="list-group-item ">Inscrições: 12~30/02/2019</li>
+                        <li class="list-group-item font-weight-bold">Matrituclas abertas</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-block btn-lg btn-blue">Reserve sua vaga</a>
+                    <a href="#" class="btn btn-block btn-lg btn-outline-dark">Mais Informações</a>
+                </div>
+            </div>
+        </div>
+        <!-- Card -->
+        <div class="col-xl-4 col-lg-6 mb-4">
+            <div class="card rounded shadow">
+                <div class="card-title custom-card-title" style="background-image: linear-gradient(rgba(52, 73, 94,0.9),rgba(52, 73, 94,0.9)), url('img/agente_administrativo.jpg');background-size: cover; background-position: center;">
+                  <h5 class="card-title text-light">Curso: Agente Administrativo</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Concurso para Agente Administrativo, vagas abertas e lara lara lara.
+                    </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Vagas: 15</li>
+                        <li class="list-group-item">Horas: 20horas</li>
+                        <li class="list-group-item ">Inscrições: 12~30/02/2019</li>
+                        <li class="list-group-item font-weight-bold">Matrituclas abertas</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-block btn-lg btn-dark-blue">Reserve sua vaga</a>
+                    <a href="#" class="btn btn-block btn-lg btn-outline-dark">Mais Informações</a>
+                </div>
+            </div>
+        </div>
+        <!-- Card -->
+        <div class="col-xl-4 col-lg-6 mb-4">
+            <div class="card rounded shadow">
+                <div class="card-title custom-card-title" style="background-image: linear-gradient(rgba(155, 89, 182,0.9),rgba(155, 89, 182,0.9)), url('img/agente_administrativo.jpg');background-size: cover; background-position: center;">
+                  <h5 class="card-title text-light">Curso: Agente Administrativo</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Concurso para Agente Administrativo, vagas abertas e lara lara lara.
+                    </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Vagas: 15</li>
+                        <li class="list-group-item">Horas: 20horas</li>
+                        <li class="list-group-item ">Inscrições: 12~30/02/2019</li>
+                        <li class="list-group-item font-weight-bold">Matrituclas abertas</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-block btn-lg btn-purple">Reserve sua vaga</a>
+                    <a href="#" class="btn btn-block btn-lg btn-outline-dark">Mais Informações</a>
+                </div>
+            </div>
+        </div>
+        <!-- Card -->
+        <div class="col-xl-4 col-lg-6 mb-4">
+            <div class="card rounded shadow">
+                <div class="card-title custom-card-title" style="background-image: linear-gradient(rgba(241, 196, 15,0.9),rgba(241, 196, 15,0.9)), url('img/agente_administrativo.jpg');background-size: cover; background-position: center;">
+                  <h5 class="card-title text-light">Curso: Agente Administrativo</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Concurso para Agente Administrativo, vagas abertas e lara lara lara.
+                    </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Vagas: 15</li>
+                        <li class="list-group-item">Horas: 20horas</li>
+                        <li class="list-group-item ">Inscrições: 12~30/02/2019</li>
+                        <li class="list-group-item font-weight-bold">Matrituclas abertas</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-block btn-lg btn-yellow">Reserve sua vaga</a>
+                    <a href="#" class="btn btn-block btn-lg btn-outline-dark">Mais Informações</a>
+                </div>
+            </div>
+        </div>
+        <!-- Card -->
+        <div class="col-xl-4 col-lg-6 mb-4">
+            <div class="card rounded shadow">
+                <div class="card-title custom-card-title" style="background-image: linear-gradient(rgba(46, 204, 113,0.9),rgba(46, 204, 113,0.9)), url('img/agente_administrativo.jpg');background-size: cover; background-position: center;">
+                  <h5 class="card-title text-light">Curso: Agente Administrativo</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Concurso para Agente Administrativo, vagas abertas e lara lara lara.
+                    </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Vagas: 15</li>
+                        <li class="list-group-item">Horas: 20horas</li>
+                        <li class="list-group-item ">Inscrições: 12~30/02/2019</li>
+                        <li class="list-group-item font-weight-bold">Matrituclas abertas</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-block btn-lg btn-green">Reserve sua vaga</a>
+                    <a href="#" class="btn btn-block btn-lg btn-outline-dark">Mais Informações</a>
+                </div>
+            </div>
+        </div>
+        <!-- Card -->
+        <div class="col-xl-4 col-lg-6 mb-4">
+            <div class="card rounded shadow">
+                <div class="card-title custom-card-title" style="background-image: linear-gradient(rgba(231, 76, 60,0.9),rgba(231, 76, 60,0.9)), url('img/agente_administrativo.jpg');background-size: cover; background-position: center;">
+                  <h5 class="card-title text-light">Curso: Agente Administrativo</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Concurso para Agente Administrativo, vagas abertas e lara lara lara.
+                    </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Vagas: 15</li>
+                        <li class="list-group-item">Horas: 20horas</li>
+                        <li class="list-group-item ">Inscrições: 12~30/02/2019</li>
+                        <li class="list-group-item font-weight-bold">Matrituclas abertas</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-block btn-lg btn-red">Reserve sua vaga</a>
+                    <a href="#" class="btn btn-block btn-lg btn-outline-dark">Mais Informações</a>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+<!-- FIM SECTION DESTAQUE -->
+<!-- FEATURES SECTION -->
+<section id="features" class="background-white">
+<div class="container-fluid">
+
+    <h2 class="heading-section">Doutor Concursos</h2>
+
+    <div class="row my-5 py-5 text-center">
+        <div class="feature-social col-lg-3">
+            <div class="features-icon mb-4">
+                <i class="fas fa-bullseye fa-5x"></i>
+            </div>
+            <h4>Exercicios</h4>
+            <p>Vasta coletanea de exercicios para praticar e preparar os seus alunos.</p>
+        </div>
+        <div class="feature-social col-lg-3">
+            <div class="features-icon mb-4">
+                <i class="fas fa-check-circle fa-5x"></i>
+            </div>
+            <h4>Simulados</h4>
+            <p>Diversos simulados para testar o conhecimento e treinar os alunos para o dia da prova.</p>
+        </div>
+        <div class="feature-social col-lg-3">
+            <div class="features-icon mb-4">
+                <i class="fas fa-book-reader fa-5x"></i>
+            </div>
+            <h4>Plano de Estudo</h4>
+            <p>Planos de estudos personalizados focado nos assuntos mais necessarios ou trabalhosos para o aluno.</p>
+        </div>
+        <div class="feature-social col-lg-3">
+            <div class="features-icon mb-4">
+                    <i class="fas fa-chalkboard-teacher fa-5x"></i>
+            </div>
+            <h4>Estrutura Apropriada</h4>
+            <p>Dr. Concursos possui uma infraestrutura fisica disponivel para todos os alunos durante o horário comercial.</p>
+        </div>
+    </div>
+    
+</div>
+</section>
+<!-- FIM SECTION FEATURES -->
+<!-- SECTION TESTMONIALS -->
+<section id="testimonials" class="background-colored">
+    <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+        
+        <div class="carousel-inner">
+            <!-- DIV 01 -->
+            <div class="carousel-item container-fluid active">
+                <div class="custom-height-2 d-flex flex-column justify-content-center align-items-center">
+                    <i class="testimonial-icon fas fa-quote-left fa-6x"></i>
+                    <h2 class="testimonial-text">
+                        Professores didáticos, com dicas valiosas, preço bom e o atendimento que o pessoal dá aos alunos é muito atenciosos e cuidadosos.
+                    </h2>
+                    <div class="text-center p-5">
+                        <img class="testimonial-img" src="img/33.jpg" alt="Troy Mckinney">
+                        <em class="testimonial-name">Norma Bradley</em>
+                    </div>
+                </div>
+            </div>
+            <!-- DIV 02 -->
+            <div class="carousel-item container-fluid">
+                <div class="custom-height-2 d-flex flex-column justify-content-center align-items-center">
+                    <i class="testimonial-icon  fas fa-quote-left fa-6x"></i>
+                    <h2 class="testimonial-text">
+                            Melhor escola, melhores professores, melhores condições de pagamente. Simplesmente TOP.
+                    </h2>
+                    <div class="text-center p-5">
+                        <img class="testimonial-img" src="img/20.jpg" alt="Troy Mckinney">
+                        <em class="testimonial-name">Vera Harper, Lakeshore</em>
+                    </div>
+                </div>
+            </div>
+            <!-- DIV 03 -->
+            <div class="carousel-item container-fluid">
+                    <div class="custom-height-2 d-flex flex-column justify-content-center align-items-center">
+                    <i class="testimonial-icon fas fa-quote-left fa-6x"></i>
+                    <h2 class="testimonial-text">
+                        Ótimo curso preparatório para TJ Interior. Com excelentes professores e espaço.
+                    </h2>
+                    <div class="text-center p-5">
+                        <img class="testimonial-img" src="img/0.jpg" alt="Troy Mckinney">
+                        <em class="testimonial-name">Troy Mckinney, Lone Mountain</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Control -->
+        <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Proximo</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselTestimonials" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+    </div>
+</section>
+<!-- END SECTION TESTIMONIALS -->
+<!-- SECTION ABOUT US -->
+<section id="about">
+<div class="container-fluid">
+
+    <h2 class="heading-section">Sobre Nós</h2>
+
+    <div class="offset-lg-4 col-lg-8 col-sm-12">
+        <p>
+            Nossa proposta é inovar na preparação de nossos alunos, por meio de um plano de estudo preparado para cada aluno, direcionando os estudos com foto total na aprovação! Nossa maior intenção é revolucionar a vida das pessoas!
+        </p>
+        <a href="#" class="btn btn-outline-primary mb-4">Conheça nossos professores</a>
+
+            
+        <h3 class="mt-auto mb-4 text ml-5">Aula expositiva</h3>
+        <p>
+            Sempre no início de cada uma de nossas turmas realizamos uma primeira aula, onde explicamos tudo sobre o edital, o cargo, as particularidades do concurso,  como são as fases, dúvidas e outras informações. Em seguida explicamos como tudo funciona para o concurso que iremos trabalhar juntos pela aprovação. 
+        </p>
+        <p>
+            O interessante é que, durante esta aula, nós damos a oportunidade de que os alunos mais interessados consigam um valor diferenciado dos demais, tendo um desconto especial só pelo fato de participar dessa aula. <a href="#" class="">Cadastre-se e receba noticias sobre nossas aulas expositivas e outras noticias relacionadas</a>
+        
+        </p>
+        
+        <div class="mt-4">
+            <a href="#" class="btn btn-primary mr-2" data-toggle="modal" data-target="#formModal">Cadastre-se</a>
+            <a href="#" class="btn btn-outline-info">Mais informações</a>
+        </div>
+    </div>
+</div>
+</section>
+<!-- END SECTION ABOUT -->
+
+<footer class="border-top bg-dark">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md text-center">
+                <img class="img-fluid mb-2" src="img/logo5v2-4-borda.png" alt="Logo">
+                <small class="d-block mb-3 text-muted">© 2019 - Todos os direitos reservados ao DoutorConcursos - São José do Rio Preto</small>
+            </div>
+            <div class="col-6 col-md">
+            <h5 class="text-white-50">Cursos</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Agente Administrativo</a></li>
+                <li><a class="text-muted" href="#">Fiscal de postura</a></li>
+                <li><a class="text-muted" href="#">Detran</a></li>
+                <li><a class="text-muted" href="#">Soldado</a></li>
+                <li><a class="text-muted" href="#">INSS</a></li>
+            </ul>
+            </div>
+            <div class="col-6 col-md">
+            <h5 class="text-white-50">Recursos</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Alunos</a></li>
+                <li><a class="text-muted" href="#">Parceiros</a></li>
+            </ul>
+            </div>
+            <div class="col-6 col-md">
+            <h5 class="text-white-50">Sobre</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Professores</a></li>
+                <li><a class="text-muted" href="#">Localização</a></li>
+                <li><a class="text-muted" href="#">Depoimentos</a></li>
+                <li><a class="text-muted" href="#">Sobre</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <small class="d-block py-3 text-muted text-center">Site é uma redesign feito por Carlos Yoshio Tsuda. Utilizando Bootstrap (não otimizado)</small>
+</footer>
+</div>
+</body>
+
+
+<!-- Modal -->
+<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-dark">
+                <h5 class="modal-title text-light" id="formModalLabel">Cadastro Aula Expositiva</h5>
+                <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="nome" class="form-control" id="nome" aria-describedby="emailHelp" placeholder="Enter email">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="password" class="form-control" id="email" placeholder="Password">
+                        <small id="emailAjuda" class="form-text text-muted">Nós nunca iremos compartilha seu e-mail com mais ninguém.</small>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="checkbox">
+                        <label class="form-check-label" for="checkbox">Desejo receber emails sobre futuros concursos e aulas expositivas.</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="Submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
+<!-- 
+    Dr. Concursos, o novo cursinho PRESENCIAL de São José do Rio Preto!
+ -->
